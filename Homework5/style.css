@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+}
+
+.picture {
+    position: relative;
+    height: 576px;
+    background-image: url(./img/f.jpg);      
+}
+
+.pic1 {
+   height: 230px;
+   width: 150px;
+   position: absolute;
+   bottom: 145px;
+   left: 250px;
+   border-radius: 10px;
+   transform: rotate(-10deg);
+   border: 1px solid black
+}
+
+.pic2 {
+    height: 230px;
+    width: 150px;
+    position: absolute;
+    bottom: 145px;
+    left: 250px;
+    border-radius: 10px;
+    transform: rotate(12deg);
+    border: 1px solid black
+}
+
+.pic3 {
+    height: 230px;
+    width: 150px;
+    position: absolute;
+    bottom: 170px;
+    left: 330px;
+    border-radius: 10px;
+    transform: rotate(-3deg);
+    border: 1px solid black
+}
+
+.pic4 {
+    height: 230px;
+    width: 150px;
+    position: absolute;
+    bottom: 170px;
+    left: 370px;
+    border-radius: 10px;
+    transform: rotate(-3deg)
+}
+
+.pic5 {
+    height: 230px;
+    width: 150px;
+    position: absolute;
+    bottom: 70px;
+    left: 370px;
+    border-radius: 10px;
+    border: 1px solid black;
+    transform: rotate(-3deg)
+}
+
+.pic6 {
+    height: 230px;
+    width: 150px;
+    position: absolute;
+    bottom: 70px;
+    left: 440px;
+    border-radius: 10px;
+    transform: rotate(-3deg);
+    z-index: 1
+}
+
+.pic7 {
+    height: 235px;
+    width: 150px;
+    position: absolute;
+    bottom: 70px;
+    left: 480px;
+    border-radius: 10px;
+    border: 1px solid black
+}
+
+.pic8 {
+    height: 230px;
+    width: 150px;
+    position: absolute;
+    bottom: 155px;
+    right: 200px;
+    border-radius: 10px;
+    transform: rotate(-4deg)
+}
+
+.pic9 {
+    height: 230px;
+    width: 150px;
+    position: absolute;
+    bottom: 155px;
+    right: 100px;
+    border-radius: 10px;
+    transform: rotate(-4deg);
+    z-index: 1
+}
+
+.pic10 {
+    height: 230px;
+    width: 150px;
+    position: absolute;
+    bottom: 120px;
+    right: 135px;
+    border-radius: 10px
+}
+
+.pic11 {
+    height: 230px;
+    width: 150px;
+    position: absolute;
+    left: 650px;
+    top: 5px;
+    border-radius: 10px;
+    z-index: 1
+}
+
+.pic12 {
+    height: 230px;
+    width: 150px;
+    position: absolute;
+    transform: rotate(90deg);
+    border-radius: 10px;
+    left: 700px
+}
