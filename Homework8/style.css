@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Chalet-ParisNineteenEighty';
+    src: url('fonts/Chalet-ParisNineteenEighty.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    margin: 0
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    
+}
+
+.clear {
+    clear: both
+}
+
+#header {
+    background: linear-gradient(30deg, #73adb5, whitesmoke);
+    position: relative
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 30px
+}
+
+.title {
+    font-size: 90px;
+    margin-left: 260px;
+    position: absolute;
+    top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif   
+}
+
+.phone {
+   position: absolute;
+   top: 10px;
+   right: 30px;
+   color: black
+}
+
+#main-nav {
+    background: linear-gradient(30deg, #d2eff3, #9a9a60, whitesmoke);
+    text-align: center;
+}
+
+.main-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block
+}
+
+.main-menu li {
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+    min-width: 100px;
+    box-shadow: 0 5px 10px 5px black;
+    padding: 2px 2px
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-menu > li > a:hover {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+main {
+    background: linear-gradient(30deg, #d2eff3, whitesmoke)
+}
+
+.leftSidebar {
+    float: left;
+    width: 170px;
+    margin-top: 5px;
+    background: whitesmoke
+}
+
+.left-menu {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   text-align: center
+}
+
+.left-menu li {
+    background: linear-gradient(90deg, #9a9a60 10%, whitesmoke 10%, #d2eff3);
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 5px black;
+    font-size: 20px
+}
+
+.content {
+    background: linear-gradient(90deg, #d2eff3, whitesmoke);
+    margin-left: 180px;
+    text-align: justify;
+    padding: 5px 10px;
+    border-radius: 10px
+}
+
+h1 {
+    text-align: center;
+    font-family: Chalet-ParisNineteenEighty, sans-serif;
+}
+
+h2 {
+    margin-left: 20px
+}
+
+p {
+    text-indent: 20px
+}
+
+ul {
+    list-style-type: circle;
+}
+
+figure {
+    float: right;
+    margin: 0 5px 10px 20px;
+    text-align: center
+}
+
+.sparta {
+    border-radius: 10px
+}
+
+figcaption {
+    font-family: cursive;
+    font-size: 12px
+}
+
+footer {
+    background: linear-gradient(30deg, #73adb5, whitesmoke)
+}
+
+.rights {
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+    display: block
+}
+
+    
+
