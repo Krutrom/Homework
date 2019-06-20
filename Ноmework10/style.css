@@ -348,7 +348,7 @@ a.footer-news-title {
 .footer-news .time1 {
     position: absolute;
     top: 60px;
-    left: 100px;
+    left: 105px;
     color: #080808;
     letter-spacing: 0.32px;
     line-height: 20px;
@@ -357,7 +357,7 @@ a.footer-news-title {
 
 .footer-news .time2 {
     position: absolute;
-    left: 100px;
+    left: 105px;
     bottom: -5px;
     color: #080808;
     letter-spacing: 0.32px;
