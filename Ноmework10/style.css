@@ -311,6 +311,10 @@ a.home-news-item-title {
     line-height: 48px
 }
 
+.footer-menu ul li:hover {
+    background-color: #ffd307;
+}
+
 .footer-block3 {
     padding-top: 57px;
     padding-right: 87px
