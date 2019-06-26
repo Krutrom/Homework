@@ -1,0 +1,55 @@
+.wrapper {
+    width:1200px; 
+    margin: 0 auto;
+}
+
+.main-form {
+    width:500px;
+    margin: 0 auto;
+}
+
+legend {
+    color: green;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin: 5px;
+    font-weight: 700;
+    color: darkcyan;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    margin: 5px;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input:hover {
+    background-color: blanchedalmond;
+}
+
+.main-form__button {
+    display: block;
+    width: 200px;
+    height: 35px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-weight: 600;
+    color: gray
+}
+
+em {
+    color: red;
+}
+
+.main-form__explain {
+    font-size: 12px;
+    font-style: oblique;
+}

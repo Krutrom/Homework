@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Пожалуйста заполните форму</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main-form">
+            <form action="http://nickblack.pro/send.php" method="POST">
+                <fieldset>
+                    <legend>Контактная информация</legend>
+                        <label for="fname">Имя<em>*</em></label>
+                        <input name="fname" type="text" required autocomplete="off" autofocus></input></br>
+                        <label for="sname">Фамилия</label>
+                        <input name="sname" type="text" autocomplete="off"></input></br>
+                        <label for="age">Возраст</label>
+                        <input name="age" type="number" min="1" max="100"></input></br>
+                        <label for="mail">Почта</label>
+                        <input name="mail" type="email"></input></br>
+                        <label for="bday">Дата рождения</label>
+                        <input name="bday" type="date"></input></br>
+                        <label for="phone">Телефон<em>*</em></label>
+                        <input name="phone" type="tel" required autocomplete="off"></input></br>                            
+                        <label for="mymail">E-mail получателя<em>*</em></label>
+                        <input name="mymail" type="email" required readonly value="romankrutsenko@gmail.com"></input></br>
+                        <button class="main-form__button" type="submit">Отослать</button>
+                        <p class="main-form__explain">
+                             Обязательные поля помечены <em>*</em>
+                        </p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
