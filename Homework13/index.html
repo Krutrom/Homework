@@ -11,89 +11,87 @@
 <body>
     <header id="header">
         <div class="wrapper">
-            <div class="header__menu-container">
-                <div class="header__menu-container_bars">
-                    <div class="header__menu-container_bars_bar"></div>
-                    <div class="header__menu-container_bars_bar"></div>
-                    <div class="header__menu-container_bars_bar"></div>
+            <div class="header-container">   
+                <div class="header-menu">
+                    <a href="#" class="header-menu-link">Menu</a>
                 </div>
-                <p class="header__menu-name">Menu</p>
-            </div>
-            <a href="#" class="header__logo">
-                <img src="../Homework13/img/icons/logo-i.png" alt="logo-i">
-            </a>
-            <div class="header__searh">
-                <input class="header__search_item" type="search" placeholder="Search"></input>
-            </div>
+                <div class="header-logo">
+                    <a href="#" class="header-logo-link">
+                        <img class="header-logo-link-img" src="../Homework13/img/icons/logo-i.png" alt="logo-i">
+                    </a>
+                </div>
+                <div class="header-search">
+                    <a href="#" class="header-search-link">Search</a>
+                </div>
+            </div> 
         </div>
     </header>
-
-    <section class="top-section">
+    
+    <main class="main">
         <div class="wrapper">
-            <p class="top-section__headline">Home</p>
-            <h1 class="top-section__name">Buster bulb</h1>
-            <p class="top-section__description">The first designer LED bulb, finished in gold glass.</p>
-            <div class="read-more-item"><a href="#">Read more</a></div>
+            <section class="top">
+                <div class="top-headline">Home</div></br>
+                <h1 class="top-title">Buster Bulb</h1>
+                <div class="top-desc">The first designer LED bulb, finished in gold glass.</div>
+                <a href="#" class="read-more">Read more</a>
+            </section> 
+            <section class="middle">
+                <div class="middle-container">
+                    <article class="accessories">
+                        <div class="accessories-headline">Accessories</div>
+                        <h2 class="accessories-title">Peak</h2>
+                        <div class="accessories-desc">A playful pouch with a trick up its sleeve</div>
+                        <a class="read-more-link" href="#">Read more</a>
+                    </article>
+                    <article class="sidebar">
+                        <div class="sidebar-headline">Good things</div>
+                        <div class="sidebar-desc">...</br>
+                            come to those who sign up for our newsletter</div>
+                        <form class="sidebar-form">
+                            <input class="item-email" type="email" name="email" value="Your email"></br>
+                            <button class="item-subscribe" type="submit">Subscribe</button>
+                        </form>
+                        <div class="sidebar-privacy">We respect your privacy and we won’t share your information.</div>
+                    </article>
+                </div>
+            </section>
+            <section class="bottom">
+                <div class="bottom-container">
+                    <article class="cameras-left">
+                        <div class="cameras-left-headline">Cameras</div>
+                        <h3 class="cameras-left-title">Leica M</h3>
+                        <a href="#" class="review-link">Review</a>
+                        </div>
+                    </article>
+                    <article class="sound"> 
+                        <div class="sound-headline ">Sound</div>
+                        <h3 class="sound-title ">Trobla Amplifier</h3>
+                        <a href="#" class="review-link">Review</a>
+                    </article>
+                    <article class="cameras-right">
+                        <div class="cameras-right-headline headline">Cameras</div>
+                        <h3 class="cameras-right-title title">Leica D-Lux</h3>
+                        <div class="cameras-right-desc">Limited-edition Diesel collaboration</div>
+                        <a href="#" class="read-more-link">Read more</a>
+                    </article>
+                </div>
+            </section>
         </div>
-    </section>
-
-    <section class="middle-section">
-        <div class="wrapper">
-            <div class="accessories">
-                <p class="accessories__headline">Accessories</p>
-                <h2 class="aaccessories__name">Peak</h2>
-                <p class="accessories__descr">A playful pouch with a trick up its sleeve</p>
-                <div class="read-more-item">
-                    <a href="#">Read more</a>
-                </div>
-            </div>
-            <div class="sidebar">
-                <p class="sidebar__headline">Good sings</p>
-                <p class="sidebar__descr">...</p></br>
-                <p class="sidebar__descr">come to those who sign up for our newsletter</p>
-                <input class="sidebar-item-email" type="email" placeholder="Your email"></br>
-                <input class="sidebar-item-subscribe" type="submit" value="Subscribe">
-                <P class="sidebar__agreement">We respect your privacy and we won’t share your information.</P>
-            </div>
-        </div>
-    </section>
-
-    <section class="bottom-section">
-        <div class="wrapper">
-            <div class="bottom-section__cameras-left-block">
-                <p class="bottom-section__cameras-left-block_headline">Cameras</p>
-                <h3>Leica M</h3>
-                <div class="review-item">
-                    <a href="#">Rewiew</a>
-                </div>
-            </div>
-            <div class="bottom-section__sound"> 
-                <p class="bottom-section__sound_headline">Sound</p>
-                <h3>Trobla Amplifier</h3>
-                <div class="review-item">
-                    <a href="#">Rewiew</a>
-                </div>
-            </div>
-            <div class="bottom-section__cameras-left-block">
-                <p class="bottom-section__cameras-left-block_headline">Cameras</p>
-                <h3>Leica D-Lux</h3>
-                <p class="bottom-section__cameras-left-block_descr">Limited-edition DIesel collaboration</p>
-                <div class="read-more-item">
-                    <a href="#">Read more</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    </main>
 
     <footer id="footer">
         <div class="wrapper">
-            <p class="copyright">Copyright DMT</p>
-            <a href="">
-                <img src="../Homework13/img/icons/facebook.png" alt="FB">
-            </a>
-            <a href="">
-                <img src="../Homework13/img/icons/twitter.png" alt="TW">
-            </a>
+            <div class="footer-container">
+                <div class="footer-copyright">Copyright DMT</div>
+                <div class="footer-socials"> 
+                    <a class="socials-link" href="#">
+                        <img src="../Homework13/img/icons/facebook.png" alt="FB">
+                    </a>
+                    <a class="socials-link" href="">
+                        <img src="../Homework13/img/icons/twitter.png" alt="TW">
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
