@@ -57,8 +57,6 @@ a {
     height: 512px;
     padding: 40px;
     background: url('../img/top-section.jpg') no-repeat center;
-    
-
 }
 
 .headline {
@@ -67,12 +65,10 @@ a {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2.8px;
-    
 }
 
 .top-section-title {
     margin: 0;
-    max-width: 240px;
     color: #ffffff;
     font-size: 72px;
     font-weight: 400;
@@ -81,7 +77,7 @@ a {
 }
 
 .top-section-desc {
-    max-width: 307px;
+    
     color: #ffffff;
     font-size: 36px;
     font-weight: 400;
@@ -122,7 +118,6 @@ a {
     background-size: cover;
     margin-right: 20px;
     padding: 40px;
-  
 }   
 
 .middle-section-accessories-title {
@@ -145,13 +140,13 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 380px;
+    width: 383px;
     padding: 75px 40px 50px 40px;
     background-color: #eb7b61;  
 }
 
 .middle-section-sidebar-headline{
-    width: 249px;
+    
     margin-bottom: -40px;
     color: #ffffff;
     font-family: "Times New Roman PSMT";
@@ -160,7 +155,7 @@ a {
 }
 
 .middle-section-sidebar-desc {
-    width: 303px;
+    
     color: #ffffff;
     font-family: "Times New Roman PSMT";
     font-size: 24px;
@@ -193,7 +188,6 @@ a {
 }
 
 .middle-section-sidebar-privacy {
-    width: 248px;
     color: #ffffff;
     text-align: center;
     font-size: 14px;
@@ -278,7 +272,6 @@ a {
 }
 
 .cameras-right-desc {
-    max-width: 206px;
     color: #ffffff;
     font-size: 20px;
     font-weight: 400;
@@ -319,7 +312,6 @@ a {
     .top-section {
         padding: 20px;
         width: 100%
-        
     }
 
     .top-section-title {
@@ -337,18 +329,16 @@ a {
     }
     .middle-section-container, .bottom-section-container {
         flex-wrap: wrap;
-        
     }
 
     .middle-section {
         margin-top: 10px;
-        
     }
 
     .middle-section-accessories {
         margin: 0 auto 10px auto;
         padding: 20px;
-        
+        width: 100%
     }
 
     .middle-section-accessories-title {
@@ -407,7 +397,9 @@ a {
     }
      
     .cameras-left, .sound {
-        margin: 0 10px 10px 10px;
+        margin-bottom: 10px;
+        margin-right: 0;
+        width: 100%;
     }
      
     .cameras-right {
@@ -431,7 +423,6 @@ a {
         height: 32px;
         font-size: 12px;
         max-width: 85px;
-        
     }
 
     .review-link {
